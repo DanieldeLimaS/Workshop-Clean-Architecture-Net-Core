@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conceitos e Fundamentos", "Conceitos e Fundamentos", "{9A0F0677-0259-44B4-8CA8-CE46631B43EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Modelo Anêmico", "1 - Modelo Anêmico", "{7C78AE0D-7BF6-4135-8C7A-CA0812EEA278}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dependency Inversion", "2 - Dependency Inversion", "{72E40825-8C28-4C9B-A3D4-4F1DC0A7FDBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anemico", "Conceitos e Fundamentos\Modelo Anêmico\Anemico\Anemico.csproj", "{BD39F9B7-1EA0-4243-AE14-BCC0554A0E96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD39F9B7-1EA0-4243-AE14-BCC0554A0E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD39F9B7-1EA0-4243-AE14-BCC0554A0E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD39F9B7-1EA0-4243-AE14-BCC0554A0E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD39F9B7-1EA0-4243-AE14-BCC0554A0E96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C78AE0D-7BF6-4135-8C7A-CA0812EEA278} = {9A0F0677-0259-44B4-8CA8-CE46631B43EA}
+		{72E40825-8C28-4C9B-A3D4-4F1DC0A7FDBD} = {9A0F0677-0259-44B4-8CA8-CE46631B43EA}
+		{BD39F9B7-1EA0-4243-AE14-BCC0554A0E96} = {7C78AE0D-7BF6-4135-8C7A-CA0812EEA278}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {439A9807-A25C-4CAE-919B-70BBF39A79B2}
+	EndGlobalSection
+EndGlobal
